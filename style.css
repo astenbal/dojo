@@ -1,0 +1,28 @@
+*
+{
+  margin:0;
+}
+
+#top_bar
+{
+  height:100px;
+  width:100%;
+  background-color:#74e;
+}
+
+#logo h1
+{
+  margin:0;
+  color:#fff;
+  line-height:100px;
+  margin-left:10px;
+}
+
+#main_area
+{
+  width:90%;
+  height:calc(100% - 105px);
+  background-color:#ddd;
+  margin-left:5%;
+  padding:10px;
+}
