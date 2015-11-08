@@ -23,7 +23,7 @@ if(!empty($_POST['submit']))
 {
   require'connect.php';
 
-  $user = $_POST["user"];
+  $user = $_POST["username"];
   $pass = $_POST["pass"];
   $pass_hash = md5($pass);
   $_SESSION['user'] = $user;
